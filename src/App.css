@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  background-image: url(./images/b5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+html {
+  background-image: url(./images/b5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 3rem;
+  color: rgb(0, 247, 29) !important;
+}
+.char-page-title {
+  margin-top: 1%;
+  color: #fff;
+}
+
+.char-container {
+  margin-top: 20px;
+}
+
+.char-container img {
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  box-shadow: 0 0 10px #000;
+  cursor: pointer;
+}
+
+.char-details-update-container{
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #fff;
+  height: 900px;
+  width: 60%;
+  margin-top: 5%;
+  margin-bottom: 20px;
+  margin-left: 20%;
+  background-color: #000;
+}
+.char-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10%;
+}
+
+.char-info {
+  margin-left: 30px;
+  text-align: left;
+  color: #fff;
+}
+
+.char-title {
+  color: #fff;
+}
+
+.char-info p span {
+  font-weight: bold;
+}
+.char-details-btn{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 20px;
+  margin-left: 30%;
+  padding: 10px;  
+  height: 50px;
+  width: 40%;
+}
+
+.create-char{
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #fff;
+  height: 700px;
+  width: 40%;
+  margin-top: 5%;
+  margin-bottom: 20px;
+  margin-left: 30%;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.create-btn{
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+/* netflix banner display style */
+.character-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.characters-images {
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  box-shadow: 0 0 10px #000;
+  cursor: pointer;
+}
+
+.characters-images:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
